@@ -1,8 +1,9 @@
 # SASEval
 SAS Software Evaluation Roadmap
 1. Login to your subscription of Azure (portal.azure.com)
-2. Click on the dots beside your avatar on the top right corner and selelct Cloud Shell, or select the Cloud Shell tool off of the menu
-3. git clone ---- to get the 2 .json files, template and parameters
-4. Creat resource group
-5. az deployment group what-if --resource-group SAS9Gold --template <file> --parameters <file>
-6. az deployment group create --resource-group SAS_Trial --template-file azuredeploy.json --parameters azuredeploy.parameters.json
+2. (optional) Create resource group
+3. Click on the dots beside your avatar on the top right corner and selelct Cloud Shell, or select the Cloud Shell tool off of the menu
+4. git clone ---- to get the 2 .json files, template and parameters
+5. cd SASEval
+7. az deployment group what-if --resource-group <RESOURCE_GROUP> --template-file <file> --parameters <file>
+8. az deployment group create --resource-group <RESOURCE_GROUP> --template-file azuredeploy.json --parameters azuredeploy.parameters.json
