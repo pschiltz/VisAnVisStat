@@ -137,12 +137,7 @@
         "vTpmEnabled": true
       },
       "securityType": "[parameters('securityType')]"
-    },
-    "extensionName": "GuestAttestation",
-    "extensionPublisher": "Microsoft.Azure.Security.WindowsAttestation",
-    "extensionVersion": "1.0",
-    "maaTenantName": "GuestAttestation",
-    "maaEndpoint": "[substring('emptyString', 0, 0)]"
+    }
   },
   "resources": [
     {
