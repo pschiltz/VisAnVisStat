@@ -1,5 +1,4 @@
-# SASEval
-  SAS Software Evaluation Roadmap  
+# SAS Software Evaluation Roadmap  
   [Create Azure VM using Cloud Shell] (Create Azure VM using Cloud Shell.md)  
 2. (optional) Create resource group
 3. Click on the dots beside your avatar on the top right corner and selelct Cloud Shell, or select the Cloud Shell tool off of the menu
