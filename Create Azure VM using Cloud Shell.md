@@ -1,5 +1,5 @@
 1. Login to your subscription of Azure (portal.azure.com)
-(optional) 2. Create resource group
+2. (optional) Create resource group for the trial environment
 3. Click on the dots beside your avatar on the top right corner and selelct Cloud Shell, or select the Cloud Shell tool off of the menuOpen Cloud Shell from the Azure Portal
 4. Download two .json files that make up the Azure Resource Manager (ARM) template
 ```
