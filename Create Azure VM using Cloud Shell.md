@@ -1,3 +1,4 @@
+### Create Azure VM to use as your trial environment use the Cloud Shell and ARM template files
 1. Login to your subscription of Azure (portal.azure.com)  
 2. (optional) Create resource group for the trial environment  
 3. Click on the dots beside your avatar on the top right corner and selelct Cloud Shell, or select the Cloud Shell tool off of the menuOpen Cloud Shell from the Azure Portal  
