@@ -1,5 +1,10 @@
 # SAS Software Evaluation Roadmap  
-  [Create Azure VM using Cloud Shell] (Create Azure VM using Cloud Shell.md)  
+
+* Create appropriate resources either manually or using the provided ARM template:
+
+  * Option 1: [Create Azure VM using Cloud Shell] (Create Azure VM using Cloud Shell.md) 
+  * Option 2: Manual via the Azure Portal
+
 2. (optional) Create resource group
 3. Click on the dots beside your avatar on the top right corner and selelct Cloud Shell, or select the Cloud Shell tool off of the menu
 4. git clone ---- to get the 2 .json files, template and parameters
