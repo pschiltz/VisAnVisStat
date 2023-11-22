@@ -2,7 +2,7 @@
 
 * Create appropriate resources either manually or using the provided ARM template:
 
-  * Option 1: [Create Azure VM using Cloud Shell] (Create Azure VM using Cloud Shell.md) 
+  * Option 1: [Create Azure VM using Cloud Shell] (https://github.com/pschiltz/SASEval/blob/main/Create%20Azure%20VM%20using%20Cloud%20Shell.md) 
   * Option 2: Manual via the Azure Portal
 
 2. (optional) Create resource group
