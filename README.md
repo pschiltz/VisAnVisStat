@@ -7,7 +7,6 @@
 * [Connect to your SAS-Server VM](https://github.com/pschiltz/SASEval/blob/main/Create%20VM%20using%20Azure%20Portal.md)
 * Download the SAS Download Manager
 * Download the SAS Software Depot
-* Create the required Users and Groups
 * Deploy and Configure SAS
 * (Optional) Create and Add Users
 * Invoke and Configure SAS Enterprise Guide
