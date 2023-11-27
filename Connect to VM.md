@@ -11,7 +11,7 @@ Note the **Public IP** address there for Step 3.
 6. You will be prompted for the sasadm password, which is **letstrySASon!**
 <kbd>![](images/rdp.png)</kdb>
 7. Once the server displays, you can exit out of the "Manage Server" screen
-8. Open a Command Prompt window (type **cmd** on the search bar and then click the Command Prompt app displayed in the results)
+8. Open a Powershell window (type **power** on the search bar and then click the Windows PowerShell app displayed in the results)
 9. Paste (cntl + v) the commands below and hit **Enter** to create a SAS Server Users group and the 2 required SAS users
 ```
 net user sasdemo Orion123 /add /expires:never /passwordchg:no /fullname:"SAS Demo User"
@@ -19,4 +19,10 @@ net user sassrv Orion123 /add /expires:never /passwordchg:no /fullname:"SAS Serv
 net localgroup "SAS Server Users" /add
 net localgroup "SAS Server Users" sasdemo /add
 net localgroup "SAS Server Users" sassrv /add 
+```
+10. Paste the commands below to grant the SAS Server Users group to the local security policy of **Logon as a Batch Job**
+```
+Install-Module -Name 'Carbon' -AllowClobber
+Import-Module 'Carbon'
+Grant-CPrivilege -Identity "SAS Server Users" -Privilege SeBatchLogonRight
 ```
