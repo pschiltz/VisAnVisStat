@@ -11,3 +11,6 @@
 * Deploy and Configure SAS
 * (Optional) Create and Add Users
 * Invoke and Configure SAS Enterprise Guide
+![alt text][image]
+
+[image]: 
