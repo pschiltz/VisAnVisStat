@@ -18,5 +18,17 @@ https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar
 
 ### Adjustments Required for Non-Default Values
 
-If you did not take default values for the name of your VM, admin account, SAS required accounts, or any of the passwords, please edit your sdwresponse.properties file as highlighted below:
-
+If you did not take default values for the name of your VM, admin account, SAS required accounts, or any of the passwords, please edit your sdwresponse.properties file using Powershell and the commands below:
+  
+* To change the server name from SAS-Server (replace XXXXX with your selected server name)
+```
+(Get-Content c:\users\sasadm\downloads\sdwresponse.properties) -replace 'SAS-Server', 'XXXXX' | Set-Content c:\users\sasadm\downloads\sdwresponse.properties
+```
+* To change the SASSRV and SASDEMO passwords from Orion123 (replace XXXXX with your selected password)
+```
+(Get-Content c:\users\sasadm\downloads\sdwresponse.properties) -replace '{sas002}1D57933958C580064BD3DCA81A33DFB2', 'XXXXX' | Set-Content c:\users\sasadm\downloads\sdwresponse.properties
+```
+* To change the SASADM password from letstrySASon! (replace XXXXX with your selected password)
+```
+(Get-Content c:\users\sasadm\downloads\sdwresponse.properties) -replace '{sas002}1D57933958C580064BD3DCA81A33DFB2', 'XXXXX' | Set-Content c:\users\sasadm\downloads\sdwresponse.properties
+```
