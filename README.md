@@ -9,7 +9,7 @@ These are steps needed to get your SAS software installed and configured:
 
   * Option 1: [Create Azure VM using Cloud Shell and ARM template](Create_Azure_VM_using_Cloud_Shell.md) 
   * Option 2: [Create Azure VM using the Azure Portal](Create_VM_using_Azure_Portal.md)
-* [Connect to your SAS-Server VM and create required users](Create_VM_using_Azure_Portal.md)
+* [Connect to your SAS-Server VM and create required users](Connect_to_VM.md)
 * [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
 * [Deploy and Configure SAS](Deploy_and_Configure.md)
 * Invoke and Configure SAS Enterprise Guide
