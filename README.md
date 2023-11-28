@@ -8,9 +8,9 @@ These are steps needed to get your SAS software installed and configured:
 * Create appropriate resources either manually using the Azure Portal or using the ARM template provided in this GitHub repository:
 
   * Option 1: [Create Azure VM using Cloud Shell and ARM template](https://github.com/pschiltz/SASEval/blob/main/Create%20Azure%20VM%20using%20Cloud%20Shell.md) 
-  * Option 2: [Create Azure VM using the Azure Portal](https://github.com/pschiltz/SASEval/blob/ac466172304335b3182e768613814b04c7d7ef57/Create%20VM%20using%20Azure%20Portal.md)
+  * Option 2: [Create Azure VM using the Azure Portal](https://github.com/pschiltz/SASEval/blob/Create%20VM%20using%20Azure%20Portal.md)
 * [Connect to your SAS-Server VM and create required users](https://github.com/pschiltz/SASEval/blob/main/Create%20VM%20using%20Azure%20Portal.md)
 * [Download the SAS Software Depot](https://github.com/pschiltz/SASEval/blob/main/Download%20the%20SAS%20Software%20Depot.md)
-* [Deploy and Configure SAS](https://github.com/pschiltz/SASEval/blob/3472b3752d6a93c3e86fe0b984d66e68beff7398/Deploy%20and%20Configure.md)
+* [Deploy and Configure SAS](https://github.com/pschiltz/SASEval/blob/main/Deploy%20and%20Configure.md)
 * Invoke and Configure SAS Enterprise Guide
 * (Optional) Create and Add Users
