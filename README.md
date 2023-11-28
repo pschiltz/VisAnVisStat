@@ -14,3 +14,4 @@ These are steps needed to get your SAS software installed and configured:
 * [Deploy and Configure SAS](https://github.com/pschiltz/SASEval/blob/main/Deploy%20and%20Configure.md)
 * Invoke and Configure SAS Enterprise Guide
 * (Optional) Create and Add Users
+* [Environment Overview](EnvironmentOverview.md)
