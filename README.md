@@ -7,11 +7,11 @@ Welcome!  We are happy you have chosen to evaluate **SAS Office Analytics**.  Th
 These are steps needed to get your SAS software installed and configured:
 * Create appropriate resources either manually using the Azure Portal or using the ARM template provided in this GitHub repository:
 
-  * Option 1: [Create Azure VM using Cloud Shell and ARM template](Create Azure VM using Cloud Shell.md) 
-  * Option 2: [Create Azure VM using the Azure Portal](https://github.com/pschiltz/SASEval/blob/Create%20VM%20using%20Azure%20Portal.md)
-* [Connect to your SAS-Server VM and create required users](https://github.com/pschiltz/SASEval/blob/main/Create%20VM%20using%20Azure%20Portal.md)
-* [Download the SAS Software Depot](https://github.com/pschiltz/SASEval/blob/main/Download%20the%20SAS%20Software%20Depot.md)
-* [Deploy and Configure SAS](https://github.com/pschiltz/SASEval/blob/main/Deploy%20and%20Configure.md)
+  * Option 1: [Create Azure VM using Cloud Shell and ARM template](Create_Azure_VM_using_Cloud_Shell.md) 
+  * Option 2: [Create Azure VM using the Azure Portal](Create_VM_using_Azure_Portal.md)
+* [Connect to your SAS-Server VM and create required users](Create_VM_using_Azure_Portal.md)
+* [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
+* [Deploy and Configure SAS](Deploy_and_Configure.md)
 * Invoke and Configure SAS Enterprise Guide
 * (Optional) Create and Add Users
-* [Environment Overview](EnvironmentOverview.md)
+* [Environment Overview](Environment_Overview.md)
