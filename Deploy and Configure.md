@@ -10,7 +10,13 @@ https://pschiltz.github.io/SASEval/sdwresponse.properties
 ```
 https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar
 ```
-3.  Execute the install by pasting this command into your Powershell window (or a Command Prompt window)
+3.  Execute the install by pasting this command into a Command Prompt window (if not still up, type <kdb>cmd</kdb> in the search area of your command bar) 
 ```
-"C:\SAS Software Depot\setup.exe" -quiet -responsefile "C:\Users\sasadm\Downloads\sdwresponse.properties"
+"C:\SAS Software Depot\setup.exe" -quiet -wait -responsefile "C:\Users\sasadm\Downloads\sdwresponse.properties"
 ```
+4.  The command will execute and return.  But the install and configuration will take approximately 30 minutes.  You can monitor the XXXXX process in Task Manager to determine if it is still running.  You can also watch for the presence of c:\program files\sashome and c:\sas\config.
+
+## Adjustments Required for Non-Default Values 
+
+If you did not take default values for the name of your VM, admin account, SAS required accounts, or any of the passwords, please edit your sdwresponse.properties file as highlighted below:
+
