@@ -27,8 +27,53 @@ If you did not take default values for the name of your VM, admin account, SAS r
 * To change the SASSRV and SASDEMO passwords from Orion123 (replace XXXXX with your selected password)
 ```
 (Get-Content c:\users\sasadm\downloads\sdwresponse.properties) -replace '{sas002}1D57933958C580064BD3DCA81A33DFB2', 'XXXXX' | Set-Content c:\users\sasadm\downloads\sdwresponse.properties
+
 ```
 * To change the SASADM password from letstrySASon! (replace XXXXX with your selected password)
 ```
-(Get-Content c:\users\sasadm\downloads\sdwresponse.properties) -replace '{sas002}1D57933958C580064BD3DCA81A33DFB2', 'XXXXX' | Set-Content c:\users\sasadm\downloads\sdwresponse.properties
+(Get-Content c:\users\sasadm\downloads\sdwresponse.properties) -replace '{SAS002}80EA45163DAA60753AE8F0491F4AA89657541A6257A55A57', 'XXXXX' | Set-Content c:\users\sasadm\downloads\sdwresponse.properties
 ```
+note to self... these are lines that must be addressed.  
+add a command after depot download that copies sid_files\sas*.txt sid.txt
+replace localhost to sas-trial
+ensure i have used sas-trial everywhere or use sas-server, i think i like that best actually
+
+# Specify SAS Installation Data File
+# Specify the full path to your SAS installation data file.
+#SAS_INSTALLATION_DATA=<full path to file>
+ SAS_INSTALLATION_DATA=c:\sas software depot\sid_files\SAS94_9CWKW3_70311680_Win_X64_Srv.txt
+
+# Local Machine Name
+# Specify the local host name information.
+#os.localhost.fqdn.host.name=<text value - leave blank or remove to default on the machine where the SAS Deployment Wizard is running>
+ os.localhost.fqdn.host.name=localhost
+#os.localhost.host.name=<text value - leave blank or remove to default on the machine where the SAS Deployment Wizard is running>
+ os.localhost.host.name=localhost
+
+# External Account: Installer
+# Specify external account credentials for the Installer account, used only to initialize the SAS Metadata Server. The credentials for this account are not persisted.
+#oma.person.installer.login.userid=<user name value>
+ oma.person.installer.login.userid=SAS-Trial\sasadm
+#oma.person.installer.login.passwd=<password value>
+ oma.person.installer.login.passwd={sas002}C7678D151D540E430D35B49715F796FF3DD47A382F2DAAD0
+
+# External Account: SAS Spawned Servers Account
+# Specify credentials for the SAS Spawned Servers account, used to launch back-end stored process and pooled workspace servers.
+#oma.person.gensrvusr.login.userid=<user name value>
+ oma.person.gensrvusr.login.userid=sas-trial\sassrv
+#oma.person.gensrvusr.login.passwd=<password value>
+ oma.person.gensrvusr.login.passwd=Orion123
+
+# External Account: First User
+# Specify an external user ID for the First User identity. The SAS Deployment Wizard does not validate credentials for this identity, so you do not enter a password.
+#oma.person.demo.login.userid=<user name value>
+ oma.person.demo.login.userid=sas-trial\sasdemo
+
+
+# SAS Deployment Tester Server
+# Specify SAS Deployment Tester Server connection information.
+#server.dproserver.port=<port number value>
+ server.dproserver.port=10021
+#server.dproserver.junitlocation=<full path to file (optional)>
+ server.dproserver.junitlocation=C:\Users\sasadm\Downloads\junit-4.13.2.jar
+
