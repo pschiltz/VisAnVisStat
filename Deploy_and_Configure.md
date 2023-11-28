@@ -1,6 +1,6 @@
 ### Deploy and Configure SAS Office Analytics
 
-This GitHub project contains a response file that was previously recorded from a typical Office Analytics install.  You will download and use this recorded response file in order to minimize the amount of interaction you will have during the installation.  The default decisions that were made are explained on this page.  **If you have made changes to the defaults in prior steps, you will need to [alter the response file accordingly](#adjustments-required-for-non-default=values).**
+This GitHub project contains a response file that was previously recorded from a typical Office Analytics install.  You will download and use this recorded response file in order to minimize the amount of interaction you will have during the installation.  The default decisions that were made are explained on this page.  **If you have made changes to the defaults in prior steps, you will need to [alter the response file accordingly](#adjustments-required-for-non-default-values).**
 
 1.  Download the response file stored in this GitHub repository to the SAS-Server using the link below in the Edge browser of the VM
 ```
