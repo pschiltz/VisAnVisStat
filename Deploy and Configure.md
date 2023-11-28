@@ -6,7 +6,11 @@ This GitHub project contains a response file that was previously recorded from a
 ```
 https://pschiltz.github.io/SASEval/sdwresponse.properties
 ```
-2.  Execute the install by pasting this command into your Powershell window (or a Command Prompt window)
+2.  Download the required JUnit jar file in the same manner
+```
+https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar
+```
+3.  Execute the install by pasting this command into your Powershell window (or a Command Prompt window)
 ```
 "C:\SAS Software Depot\setup.exe" -quiet -responsefile "C:\Users\sasadm\Downloads\sdwresponse.properties"
 ```
