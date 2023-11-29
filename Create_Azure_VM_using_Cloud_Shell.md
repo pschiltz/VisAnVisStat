@@ -6,11 +6,11 @@
 ```
 git clone https://github.com/pschiltz/SASEval.git
 ```
-5. Ensure the ARM has no errors by running with the **what-if** option  
+5. Ensure the ARM has no errors by running the **az deployment** command with the **what-if** option replacing **<YOUR_RESOURCE_GROUP>** with the value of the resource group to which you want to place the SAS-Server VM.
 ```
 az deployment group what-if --resource-group "<YOUR_RESOURCE_GROUP>" --template-file SASEval/azuredeploy.json --parameters SASEval/azuredeploy.parameters.json
 ```
-6. Create the resources by running with the **create** option  
+6. Create the resources by running the **az deployment** command with the **create** option, replacing **<YOUR_RESOURCE_GROUP>** with the value of the resource group to which you want to place the SAS-Server VM  
 ```
 az deployment group create --resource-group "<YOUR_RESOURCE_GROUP>" --template-file SASEval/azuredeploy.json --parameters SASEval/azuredeploy.parameters.json
 ```
