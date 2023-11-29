@@ -7,14 +7,17 @@ Note the **Public IP** address there for Step 3.
 3. Go to Start on your desktop and locate the **Remote Desktop Connection** utility.
 4. In the General tab provide the following:
 	* Computer: **<the IP address found in step 1>**
-	* User name:  **localhost\sasadm**
+	* User name:  **SAS-Server\sasadm**
 	* Check "Allow me to save credentials"
 5. Click **Connect**
 6. You will be prompted for the sasadm password, which is **letstrySASon!**
 <kbd>![](images/rdp.png)</kdb>
 7. Once the server displays, you can exit out of the "Manage Server" screen
-8. Open a Powershell window (type **power** on the search bar and then click the Windows PowerShell app displayed in the results)
-9. Paste (cntl + v) the commands below and hit **Enter** to create a SAS Server Users group and the 2 required SAS users
+8. For the rest of these instructions you will need to open 3 applications:
+	* Microsoft Edge
+	* Powershell  (type **power** on the Windows search bar and then click the Windows PowerShell app displayed in the results)
+	* Command Prompt (type **cmd** on the Windows search bar and then click the Command Prompt app displayed in the results)
+11. In your Command Prompt window, Paste (<kbd>RMB<kbd> or </kbd>Cntl + v</kbd>) the commands below and hit **Enter** to create a SAS Server Users group and the 2 required SAS users
 ```
 net user sasdemo Orion123 /add /expires:never /passwordchg:no /fullname:"SAS Demo User"
 net user sassrv Orion123 /add /expires:never /passwordchg:no /fullname:"SAS Server Invoker" 
