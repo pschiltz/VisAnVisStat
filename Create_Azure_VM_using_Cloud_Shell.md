@@ -1,8 +1,9 @@
 ### Create Azure VM to use as your trial environment using the Cloud Shell and ARM template files
 1. Login to your subscription of Azure (portal.azure.com)  
 2. (optional) Create resource group for the trial environment  
-3. Click on the dots beside your avatar on the top right corner and selelct Cloud Shell.  Or, select the Cloud Shell tool off of the menu on the top right section of the Portal screen.  
-4. Download two .json files that make up the Azure Resource Manager (ARM) template  
+3. Open a Cloud Shell:  Select the Cloud Shell tool off of the menu on the top right section of the Portal screen.
+![alt text](images/cloud_shell_icon.png)  
+5. Download two .json files that make up the Azure Resource Manager (ARM) template by pasting the *git clone* command into the shell. 
 ```
 git clone https://github.com/pschiltz/SASEval.git
 ```
