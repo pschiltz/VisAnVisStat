@@ -31,4 +31,4 @@ Install-Module -Name 'Carbon' -AllowClobber
 Import-Module 'Carbon'
 Grant-CPrivilege -Identity "SAS Server Users" -Privilege SeBatchLogonRight
 ```
-answer **Y** to the two prompts and then hit <kbd>Enter</kbd> to execute the last command
+ answer **Y** to the two prompts and then hit <kbd>Enter</kbd> to execute the last command
