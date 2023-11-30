@@ -27,6 +27,7 @@ net localgroup "SAS Server Users" sassrv /add
 ```
 10. In your PowerShell window, paste the commands below to grant the SAS Server Users group to the local security policy of **Logon as a Batch Job**
 ```
+Go to Step 3 [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
 Install-Module -Name 'Carbon' -AllowClobber
 Import-Module 'Carbon'
 Grant-CPrivilege -Identity "SAS Server Users" -Privilege SeBatchLogonRight
