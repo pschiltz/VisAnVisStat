@@ -18,4 +18,5 @@
 5. At this point you my select **Create**, or optionally modify before selecting Create
 	* Networking:  Delete public IP and NIC when VM is deleted
 	* Management:  Auto-shutdown
+
 Go to Step 2 [Connect to your SAS-Server VM and create required users](Connect_to_VM.md)
