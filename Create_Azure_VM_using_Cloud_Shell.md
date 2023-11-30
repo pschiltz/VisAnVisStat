@@ -15,3 +15,4 @@ az deployment group what-if --resource-group "<YOUR_RESOURCE_GROUP>" --template-
 ```
 az deployment group create --resource-group "<YOUR_RESOURCE_GROUP>" --template-file SASEval/azuredeploy.json --parameters SASEval/azuredeploy.parameters.json
 ```
+Go to Step 2 [Connect to your SAS-Server VM and create required users](Connect_to_VM.md)
