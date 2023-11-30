@@ -9,8 +9,6 @@
 	* **SAS Installation Key**
 
    These can be found in your SAS Order Email.
-7. Click **Next**
-8. Click **Next** on the Order Details screen
-9. Click **Next** on the Order Options screen
-10. Click **Next** to accept the default download directory of *C:\SAS Software Depot* and click **Yes** to have this directory created and click **Next** again
-11. Click **Finish** when the download is complete.  The download should take approximately 45-60 minutes (do not get concerned at the time estimated on the progress screen, it will adjust).
+7. Click **Next** on the following 3 screens
+8. Click **Next** to accept the default download directory of *C:\SAS Software Depot*, click **Yes** to have this directory created, and click **Next** again
+9. Click **Finish** when the download is complete.  The download should take approximately 45-60 minutes (do not get concerned at the time estimated on the progress screen, it will adjust).
