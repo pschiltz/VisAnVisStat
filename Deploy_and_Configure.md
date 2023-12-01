@@ -21,6 +21,13 @@ copy "C:\SAS Software Depot\sid_files\sas*.txt" "C:\SAS Software Depot\sid_files
    
 ![](images/sdw.png)
 
+**Congratulations!**  Your SAS Deployment is complete and you are ready to get started on your trial of **SAS Office Analytics**.
+Suggested next steps:
+* EG
+* Add Users
+* Tour of Environment
+  
+***
 ### Adjustments Required for Non-Default Values
 
 If you did not take default values for the name of your VM, admin account, SAS required accounts, or any of the passwords, please edit your sdwresponse.properties file using Powershell and the commands below:
