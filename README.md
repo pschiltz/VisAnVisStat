@@ -17,3 +17,4 @@ These are steps needed to get your SAS software installed and configured:
 (Optional)
 * [Create and Add Users](Add_Users.md)
 * [Environment Overview](Environment_Overview.md)
+* [Delete Resources at Trial completion](Delete_Resources.md)
