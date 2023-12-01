@@ -18,6 +18,8 @@ copy "C:\SAS Software Depot\sid_files\sas*.txt" "C:\SAS Software Depot\sid_files
 "C:\SAS Software Depot\setup.exe" -quiet -wait -responsefile "C:\Users\sasadm\Downloads\sdwresponse.properties"
 ```
 4.  The command will execute and return.  But the install and configuration will take approximately 30 minutes.  You can monitor the **SDW window launcher application** process in Task Manager to determine if it is still running.  You can also watch for the presence of c:\program files\sashome and c:\sas\config.
+   
+![](images/sdw.png)
 
 ### Adjustments Required for Non-Default Values
 
