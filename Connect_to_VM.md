@@ -23,7 +23,8 @@ net user sasdemo Orion123 /add /expires:never /passwordchg:no /fullname:"SAS Dem
 net user sassrv Orion123 /add /expires:never /passwordchg:no /fullname:"SAS Server Invoker" 
 net localgroup "SAS Server Users" /add
 net localgroup "SAS Server Users" sasdemo /add
-net localgroup "SAS Server Users" sassrv /add 
+net localgroup "SAS Server Users" sassrv /add
+net localgroup "Remote Desktop Users" sasdemo /add
 ```
 10. In your PowerShell window, paste the commands below to grant the SAS Server Users group to the local security policy of **Logon as a Batch Job**.
     Answer **Y** to the two prompts and then hit <kbd>Enter</kbd> to execute the last command.  
