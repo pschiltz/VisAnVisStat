@@ -3,7 +3,7 @@
 <ins>ADMINISTRATION</ins>
 * All SAS Software was installed to C:\Program Files\SASHome
 * The configuration files were deployed to C:\SAS\Config\Lev1.  This location is referred to as your SAS Configuration Directory in the SAS Admin Documentation.
-* There is an administrative document, [Instructions.html](file:///C:/SAS/Config/Lev1/Documents/Instructions.html), that describes every deployed application, with details regarding ports, logs, and validation steps.
+* There is an administrative document, Instructions.html (file:///C:/SAS/Config/Lev1/Documents/Instructions.html), that describes every deployed application, with details regarding ports, logs, and validation steps.
 * You have one Unrestricted Admin user that is intended for server administration.  The tool for administration is *SAS Management Console* and you can create a profile in that utility that uses the SAS Admin account:
   * User:  sasadm@saspw
   * Password:  Orion123
