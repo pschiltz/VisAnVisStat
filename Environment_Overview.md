@@ -1,7 +1,6 @@
 ### Environment Overview
 
 <ins>ADMINISTRATION</ins>
-The deployment process both installed and configured SAS Office Analytics.  Here are the highlights:
 * All SAS Software was installed to C:\Program Files\SASHome
 * The configuration files were deployed to C:\SAS\Config\Lev1.  This location is referred to as your SAS Configuration Directory in the SAS Admin Documentation.
 * There is an administrative document, [Instructions.html](file:///C:/SAS/Config/Lev1/Documents/Instructions.html), that describes every deployed application, with details regarding ports, logs, and validation steps.
