@@ -12,6 +12,6 @@ These are steps needed to get your SAS software installed and configured:
 2. [Connect to your SAS-Server VM and create required users](Connect_to_VM.md)
 3. [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
 4. [Deploy and Configure SAS](Deploy_and_Configure.md)
-5. Invoke and Configure SAS Enterprise Guide
-* (Optional) Create and Add Users
+5. [Invoke and Login to SAS Enterprise Guide](Enterprise_Guide.md)
+* (Optional) [Create and Add Users](Add_Users.md)
 * [Environment Overview](Environment_Overview.md)
