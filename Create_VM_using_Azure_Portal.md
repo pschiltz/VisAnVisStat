@@ -15,7 +15,7 @@
 <kbd>![](images/image_details.png)</kbd>
 
 4. Select **Review+Create**
-5. At this point you my select **Create**, or optionally modify before selecting Create
+5. At this point you may select **Create**, or optionally modify before selecting Create
 	* Networking:  Delete public IP and NIC when VM is deleted
 	* Management:  Auto-shutdown
 
