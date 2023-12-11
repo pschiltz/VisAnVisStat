@@ -3,7 +3,7 @@
 To allow more user-specific testing, you may want to create individual accounts on the SAS-Server.  Follow these steps to create the user, add them to the SAS Server Users group, and also add them to the SAS Metadata.
 *Remember*, by default, with Windows 2022 Server, only two users can be remotely logged in (RDP) at a time.
 
-1.  Create the user and add it to the SAS Server Users group with the commands below, altering the USERID, PASSWORD, and NAME values:
+1.  In your Command Prompt windows, create the user and add it to the SAS Server Users group with the commands below, altering the USERID, PASSWORD, and NAME values:
 ```
 net user USERID PASSWORD /add /expires:never /passwordchg:no /fullname:"NAME"
 ```
@@ -16,6 +16,7 @@ net localgroup "Remote Desktop Users" USERID /add
 	- Login with:
 		- User: sasadm@saspw
 		- Password:  Orion123
+  	- Click **User Manager** from within the **Plugins** tab	
 	- Click **Actions > New > User** from the menu
 	- Type the name on the **General** tab
 	- Go to the **Accounts** tab and click **New**
