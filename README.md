@@ -14,7 +14,7 @@ If you plan to deploy to Azure, we have provided easy steps for securing the ins
 **Installing and configuring SAS Office Analytics**
 
 1. [Connect to your SAS-Server VM and create required users](Connect_to_VM.md)
-2. [Pre-installation tasks: Create required users and groups](Pre-Install.md)
+2. [Pre-installation tasks: Create required users and groups](Pre-install.md)
 3. [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
 4. [Deploy and Configure SAS](Deploy_and_Configure.md)
 5. [Invoke and Login to SAS Enterprise Guide](Enterprise_Guide.md)
