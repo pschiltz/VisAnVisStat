@@ -1,4 +1,4 @@
-Pre-installation Tasks
+### Pre-installation Tasks
 
 1. For the rest of these instructions you will need to open 3 applications:
 	* Microsoft Edge
