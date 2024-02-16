@@ -1,10 +1,10 @@
 # SAS Software Installation Roadmap  
 
-Welcome!  We are happy you have chosen **SAS Office Analytics**.  This guide will walk you through the process of installation and usage, including securing the required virtual machine from Azure (if required).  We have done our best to make this guide as easy and thorough as possible through scripts and automation wherever possible.  You will find that choices have been made such as machine size, name, userid and passwords.  We call this the *happy path* :relaxed:!  Feel free, if you are comfortable, to over-ride the defaults.  
+Welcome!  We are happy you have chosen **SAS Office Analytics**.  This guide will walk you through the process of installation and usage, including reserving the required virtual machine from Azure (if required).  We have done our best to make this guide as easy and thorough as possible through scripts and automation wherever possible.  You will find that choices have been made such as machine size, name, userid and passwords.  We call this the *happy path* :relaxed:!  Feel free, if you are comfortable, to over-ride the defaults.  
   
 <ins>The only requirements for getting started is your SAS Software Order email.</ins>
 
-**Securing Azure hardware**
+**Securing Azure hardware (if applicable)**
 
 If you plan to deploy to Azure, we have provided easy steps for securing the instance that will be your SAS Server.  You may have received a SAS Sizing Recommendation from your SAS Account Team, use that recommendation to select the instance type.  The default provided in the ARM template is the very smallest instance, used for example purposes, and should not be used for production deployment.
 
