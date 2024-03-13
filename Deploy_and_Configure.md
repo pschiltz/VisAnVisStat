@@ -2,8 +2,6 @@
 
 This GitHub project contains a response file that was previously recorded from a typical Office Analytics install.  You will download and use this recorded response file in order to minimize the amount of interaction you will have during the installation.  
 
-:heavy_exclamation_mark: **If you did not accept default names, passwords, or locations in prior steps, you will need to [alter the response file accordingly](#adjustments-required-for-non-default-values).**
-
 1.  Download the response file stored in this GitHub repository to the SAS-Server using the link below in the Edge browser of the VM
 ```
 https://pschiltz.github.io/SASEval/sdwresponse.properties
@@ -11,13 +9,15 @@ https://pschiltz.github.io/SASEval/sdwresponse.properties
 2.  Download the required JUnit jar file in the same manner
 ```
 https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar
-``` 
-3.  Execute the install by pasting this command into a Command Prompt window (if not still up, type <kdb>cmd</kdb> in the search area of your command bar) 
+```
+3.  :heavy_exclamation_mark: [Alter the response file accordingly](#adjustments-required-for-non-default-values).
+   
+4.  Execute the install by pasting this command into a Command Prompt window (if not still up, type <kdb>cmd</kdb> in the search area of your command bar) 
 ```
 copy "C:\SAS Software Depot\sid_files\sas*.txt" "C:\SAS Software Depot\sid_files\sid.txt"
 "C:\SAS Software Depot\setup.exe" -quiet -wait -responsefile "C:\Users\sasadm\Downloads\sdwresponse.properties"
 ```
-4.  The command will execute and return.  But the install and configuration will take approximately 30 minutes.  You can monitor the **SDW window launcher application** process in Task Manager to determine if it is still running.  You can also watch for the presence of c:\program files\sashome and c:\sas\config.
+5.  The command will execute and return.  But the install and configuration will take approximately 30 minutes.  You can monitor the **SDW window launcher application** process in Task Manager to determine if it is still running.  You can also watch for the presence of c:\program files\sashome and c:\sas\config.
    
 ![](images/sdw.png)
 
