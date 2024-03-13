@@ -32,9 +32,11 @@ Suggested next steps:
 
 If you did not take default values for the name of your VM, admin account, SAS required accounts, or any of the passwords, please edit your sdwresponse.properties file using Powershell and the commands below:
   
-* To change the server name from **SAS-Server** (replace XXXXX with your selected server name)
+* To change the server name from **SAS-Server**;
+** Replace SERVER with your selected server name.
+** Replace USER with the installer userid.
 ```
-(Get-Content c:\users\sasadm\downloads\sdwresponse.properties) -replace 'SAS-Server', 'XXXXX' | Set-Content c:\users\sasadm\downloads\sdwresponse.properties
+(Get-Content c:\users\USER\downloads\sdwresponse.properties) -replace 'SAS-Server', 'SERVER' | Set-Content c:\users\sasadm\downloads\sdwresponse.properties
 ```
 * To change the SASSRV and SASDEMO passwords from **Orion123** (replace XXXXX with your selected password)
 ```
