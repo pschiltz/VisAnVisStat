@@ -4,13 +4,19 @@
 	* Microsoft Edge
 	* Powershell  (type **power** on the Windows search bar and then click the Windows PowerShell app displayed in the results)
 	* Command Prompt (type **cmd** on the Windows search bar and then click the Command Prompt app displayed in the results)
-2. SAS requires one external account.  This SAS General Servers User is used to start specific SAS sessions that are used by your end users.  The common practice is to make this user local to the SAS Server and name it SASSRV.  Use the commands below in Command Prompt or Powershell to create SASSRV with a default password of Orion123.  Edit the userid or password as desired.
+2.  SAS requires one external account.  This SAS General Servers User is used to start specific SAS sessions that are used by your end users.  The common practice is to make this user local to the SAS Server and name it SASSRV.
+Use Powershell to run the commands on this page.
+* Define the password you would like to assign to SASSRV:
 ```
-net user sassrv Orion123 /add /expires:never /passwordchg:no /fullname:"SAS Server Invoker"
+$Env:srv_pass = '<define SASSRV password here>'
+```
+* Create SASSRV:
+```
+net user sassrv $Env:srv_pass /add /expires:never /passwordchg:no /fullname:"SAS Server Invoker"
 ```
 3. Additionally, we suggest making a SAS Demo User for testing and validation.
 ```
-net user sasdemo Orion123 /add /expires:never /passwordchg:no /fullname:"SAS Demo User"
+net user sasdemo <define SASDEMO password here> /add /expires:never /passwordchg:no /fullname:"SAS Demo User"
 ```
 4. For ease of administration, we will make a SAS Server Users group and place both of our users into that group.
 ```
