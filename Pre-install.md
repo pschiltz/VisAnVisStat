@@ -16,7 +16,7 @@ net user sassrv $Env:srv_pass /add /expires:never /passwordchg:no /fullname:"SAS
 ```
 3. Additionally, we suggest making a SAS Demo User for testing and validation.
 ```
-net user sasdemo <define SASDEMO password here> /add /expires:never /passwordchg:no /fullname:"SAS Demo User"
+net user sasdemo $Env:srv_pass /add /expires:never /passwordchg:no /fullname:"SAS Demo User"
 ```
 4. For ease of administration, we will make a SAS Server Users group and place both of our users into that group.
 ```
