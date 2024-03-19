@@ -29,9 +29,9 @@ $Env:SAS_Server='<insert fully qualified server name here>'
 ```
 Example:```  $Env:SAS_Server='sas-server.win.sas.com'```
 ```
-$Env:installer='<insert username of installer account that you are currently logged in as>'
+$Env:installer_account='<insert username of installer account that you are currently logged in as>'
 ```
-Example:```  $Env:installer='Administrator'```
+Example:```  $Env:installer_account='Administrator'```
 ```
 $Env:install_pass='<insert password of installer account>'
 ```
@@ -46,7 +46,7 @@ This password will be set for your SASADM@SASPW admin account and other internal
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'SAS-Server', $Env:SAS_Server | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_depot', $Env:sas_depot | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_config', $Env:sas_config | Set-Content $Env:sas_depot\sdwresponse.properties
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'installer', $Env:installer | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'installer_account', $Env:installer_account | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'install_pass', $Env:install_pass | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_internal_pass', $Env:sas_internal_pass | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sassrv_pass', $Env:sassrv_pass | Set-Content $Env:sas_depot\sdwresponse.properties
