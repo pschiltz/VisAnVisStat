@@ -4,11 +4,13 @@ This GitHub project contains a response file that was previously recorded from a
 
 1.  Download the response file stored in this GitHub repository to the SAS-Server using the link below in the Edge browser of the VM
 ```
-https://pschiltz.github.io/SASEval/sdwresponse.properties
+wget -outfile "c:\sas software depot\sdwresponse.properties" https://pschiltz.github.io/SASEval/sdwresponse.properties
 ```
 2.  Download the required JUnit jar file in the same manner
 ```
-https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar
+mkdir "c:\program files\junit"
+wget https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar -outfile "c:\program files\junit\junit-4.13.2.jar"
+$Env:junit_path='c:\program files\junit\junit-4.13.2.jar'
 ```
 3.  Alter the response file with required values.
 Create environment variables for use in future commands:
