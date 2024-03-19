@@ -20,9 +20,9 @@ $Env:sas_config='<insert drive and directory to locate your configuration files>
 Example:``` $Env:sas_config='C:\SAS\Config'```
 This directory will be created for you.
 ```
-$Env:sas_home='<insert drive and directory to locate your installation files>'
+$Env:sashome_path='<insert drive and directory to locate your installation files>'
 ```
-Example:``` $Env:sas_home='C:\Program Files\SASHome'```
+Example:``` $Env:sashome_path='C:\Program Files\SASHome'```
 This directory will be created for you.
 ```
 $Env:SAS_Server='<insert fully qualified server name here>'
@@ -33,9 +33,9 @@ $Env:installer='<insert username of installer account that you are currently log
 ```
 Example:```  $Env:installer='Administrator'```
 ```
-$Env:installer_pass='<insert password of installer account>'
+$Env:install_pass='<insert password of installer account>'
 ```
-Example: ``` $Env:installer_pass='Orion123'```
+Example: ``` $Env:install_pass='Orion123'```
 ```
 $Env:sas_internal_pass='<provide a password for your internal SAS accounts>'
 ```
@@ -47,11 +47,11 @@ This password will be set for your SASADM@SASPW admin account and other internal
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_depot', $Env:sas_depot | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_config', $Env:sas_config | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'installer', $Env:installer | Set-Content $Env:sas_depot\sdwresponse.properties
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'installer_pass', $Env:installer_pass | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'install_pass', $Env:install_pass | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_internal_pass', $Env:sas_internal_pass | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sassrv_pass', $Env:sassrv_pass | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'junit_path', $Env:junit_path | Set-Content $Env:sas_depot\sdwresponse.properties
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_home', $Env:sas_home | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sashome_path', $Env:sashome_path | Set-Content $Env:sas_depot\sdwresponse.properties
 ```
    
 5.  Execute the install by pasting this command into a Command Prompt window (if not still up, type <kdb>cmd</kdb> in the search area of your command bar) 
