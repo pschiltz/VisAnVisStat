@@ -12,7 +12,7 @@ mkdir "c:\program files\junit"
 wget https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar -outfile "c:\program files\junit\junit-4.13.2.jar"
 $Env:junit_path='c:\program files\junit\junit-4.13.2.jar'
 ```
-3.  Alter the response file with required values.
+3.  Create environment variables to store the values for your specific settings.  These will be used to edit the response file so that the SDW will have proper values to the configuration process.
 Create environment variables for use in future commands:
 ```
 xxxx
