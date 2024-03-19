@@ -5,7 +5,7 @@ This GitHub project contains a response file that was previously recorded from a
 1.  Download the response file stored in this GitHub repository.  This file will be edited and will eventually feed values to the SAS Deployment Wizard.
 ```
 $Env:sas_depot='c:\sas software depot'
-wget -outfile "$Env:sas_depot\sdwresponse.properties" https://pschiltz.github.io/SASEval/sdwresponse.properties
+wget -outfile "$Env:sas_depot\sdwresponse.properties" https://pschiltz.github.io/OfficeAnalytics/sdwresponse.properties
 ```
 2.  Download the required JUnit jar file in the same manner
 ```
@@ -43,15 +43,15 @@ Example:```  $Env:sas_internal_pass='Orion123'```
 This password will be set for your SASADM@SASPW admin account and other internal accounts as well during the configuration.
 4.  Make substitutions in the response file using the environment variables set above.  You should not have to edit this code.
 ```
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'SAS-Server', '$Env:SAS_Server' | Set-Content $Env:sas_depot\sdwresponse.properties
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_depot', '$Env:sas_depot' | Set-Content $Env:sas_depot\sdwresponse.properties
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_config', '$Env:sas_config' | Set-Content $Env:sas_depot\sdwresponse.properties
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'installer', '$Env:installer' | Set-Content $Env:sas_depot\sdwresponse.properties
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'installer_pass', '$Env:installer_pass' | Set-Content $Env:sas_depot\sdwresponse.properties
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_internal_pass', '$Env:sas_internal_pass' | Set-Content $Env:sas_depot\sdwresponse.properties
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sassrv_pass', '$Env:sassrv_pass' | Set-Content $Env:sas_depot\sdwresponse.properties
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'junit_path', '$Env:junit_path' | Set-Content $Env:sas_depot\sdwresponse.properties
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_home', '$Env:sas_home' | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'SAS-Server', $Env:SAS_Server | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_depot', $Env:sas_depot | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_config', $Env:sas_config | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'installer', $Env:installer | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'installer_pass', $Env:installer_pass | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_internal_pass', $Env:sas_internal_pass | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sassrv_pass', $Env:sassrv_pass | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'junit_path', $Env:junit_path | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_home', $Env:sas_home | Set-Content $Env:sas_depot\sdwresponse.properties
 ```
    
 5.  Execute the install by pasting this command into a Command Prompt window (if not still up, type <kdb>cmd</kdb> in the search area of your command bar) 
