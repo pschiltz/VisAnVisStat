@@ -10,7 +10,7 @@ $Env:sassrv_pass = '<define SASSRV password here>'
 ```
 * Create SASSRV:
 ```
-net user sassrv $Env:srv_pass /add /expires:never /passwordchg:no /fullname:"SAS Server Invoker"
+net user sassrv $Env:sassrv_pass /add /expires:never /passwordchg:no /fullname:"SAS Server Invoker"
 ```
 3. Additionally, we suggest making a SAS Demo User for testing and validation.
 ```
