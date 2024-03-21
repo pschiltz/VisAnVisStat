@@ -39,7 +39,7 @@ $Env:junit_path='c:\program files\junit\junit-4.13.2.jar'
       $Env:sas_internal_pass='<provide a password for your internal SAS accounts>'
       ```
       
-5.  Make substitutions in the response file using the environment variables set above.  You should not have to edit this code.
+4.  Make substitutions in the response file using the environment variables set above.  You should not have to edit this code.
 ```
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'SAS-Server', $Env:SAS_Server | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_depot', $Env:sas_depot | Set-Content $Env:sas_depot\sdwresponse.properties
@@ -52,7 +52,7 @@ $Env:junit_path='c:\program files\junit\junit-4.13.2.jar'
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sashome_path', $Env:sashome_path | Set-Content $Env:sas_depot\sdwresponse.properties
 ```
    
-6.  Execute the install:  
+5.  Execute the install:  
 ```
 copy "$Env:sas_depot\sid_files\sas*.txt" "$Env:sas_depot\sid_files\sid.txt"
 & "$Env:sas_depot\setup.exe" -quiet -wait -responsefile "$Env:sas_depot\sdwresponse.properties"
