@@ -18,5 +18,10 @@
 5. At this point you may select **Create**, or optionally modify before selecting Create
 	* Networking:  Delete public IP and NIC when VM is deleted
 	* Management:  Auto-shutdown
-
+6. The server created above has a default name and administrator account.  Note these values for future steps, you will need them during the Pre-install tasks:
+<table>
+  <tr><td>SAS Server Host Name</td><td>SAS-Server</td></tr>
+  <tr><td>Installer Account</td><td>sasadm</td></tr>
+  <tr><td>Installer Password</td><td>letstrySASon!</td></tr>
+</table>
 Go to Step 2 [Connect to your SAS-Server VM and create required users](Connect_to_VM.md)
