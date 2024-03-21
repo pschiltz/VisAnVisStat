@@ -1,6 +1,6 @@
 # SAS Software Installation Roadmap  
 
-Welcome!  We are happy you have chosen **SAS Office Analytics**.  This guide will walk you through the process of installation and usage, including reserving the required virtual machine from Azure (if required).  The process described in this guide is taken from the [Office Analytics 2-Machine Installation Manual](https://go.documentation.sas.com/api/docsets/oatmig/7.4/content/oatmig.pdf).
+Welcome!  We are happy you have chosen **SAS Office Analytics**.  This guide will walk you through the entire process of installation and configuration.  These steps are derived from the [Office Analytics 2-Machine Installation Manual](https://go.documentation.sas.com/api/docsets/oatmig/7.4/content/oatmig.pdf).
   
 <ins>The only requirements for getting started are your SAS Software Order email and a Windows server, instance, or VM.</ins>
 
