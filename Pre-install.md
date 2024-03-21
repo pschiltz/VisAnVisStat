@@ -30,4 +30,4 @@ Import-Module 'Carbon'
 Grant-CPrivilege -Identity "SAS Server Users" -Privilege SeBatchLogonRight
 ```
 
-Go to [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
+Now, once the depot has completely downloaded, **Go to Step 3.** [Deploy and Configure SAS](Deploy_and_Configure.md)
