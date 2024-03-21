@@ -21,4 +21,4 @@ az deployment group create --resource-group "<YOUR_RESOURCE_GROUP>" --template-f
   <tr><td>Installer Account</td><td>sasadm</td></tr>
   <tr><td>Installer Password</td><td>letstrySASon!</td></tr>
 </table>
-Go to Step 2 [Connect to your SAS-Server VM and create required users](Connect_to_VM.md)
+Go to Step 1 [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
