@@ -13,4 +13,4 @@
 8. Click **Next** to accept the default download directory of *C:\SAS Software Depot*, click **Yes** to have this directory created, and click **Next** again
 9. Click **Finish** when the download is complete.  The download should take approximately 45-60 minutes (do not get concerned at the time estimated on the progress screen, it will adjust).
 
-Go to Step 4 [Deploy and Configure SAS](Deploy_and_Configure.md)
+While the depot is downloading, you can **Go to Step 2** [Pre-installation Tasks](Pre-install.md)
