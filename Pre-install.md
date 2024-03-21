@@ -11,7 +11,7 @@
       ```
       net user sassrv $Env:sassrv_pass /add /expires:never /passwordchg:no /fullname:"SAS Server Invoker"
       ```
-3. Additionally, we suggest making a SAS Demo User for testing and validation.
+3. Additionally, we suggest making a SAS Demo User for testing and validation.  It will have the userid of **SASDEMO** and will share the same password that was used for SASSRV.
 ```
 net user sasdemo $Env:sassrv_pass /add /expires:never /passwordchg:no /fullname:"SAS Demo User"
 ```
