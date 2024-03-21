@@ -9,11 +9,11 @@ Welcome!  We are happy you have chosen **SAS Office Analytics**.  This guide wil
 1. [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
 2. [Pre-installation tasks: Create required users and groups](Pre-install.md)
 3. [Deploy and Configure SAS](Deploy_and_Configure.md)
-4. [Invoke and Login to SAS Enterprise Guide](Enterprise_Guide.md)
    
 (Post-installation Tasks)
 * [Create and Add Users](Add_Users.md)
 * [Environment Overview](Environment_Overview.md)
+* [Invoke and Login to SAS Enterprise Guide](Enterprise_Guide.md)
   
 (Optional:  Securing a server on Azure)
 If you plan to deploy to Azure, we have provided easy steps for securing the instance that will be your SAS Server.  You may have received a SAS Sizing Recommendation from your SAS Account Team, use that recommendation to select the instance type.  The default provided in the ARM template is the very smallest instance, used for example purposes, and should not be used for production deployment.
