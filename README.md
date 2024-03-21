@@ -1,13 +1,13 @@
-# SAS Software Installation Roadmap  ** UNDER DEVELOPMENT **
+# SAS Software Installation Roadmap  
 
 Welcome!  We are happy you have chosen **SAS Office Analytics**.  This guide will walk you through the process of installation and usage, including reserving the required virtual machine from Azure (if required).  The process described in this guide is taken from the [Office Analytics 2-Machine Installation Manual](https://go.documentation.sas.com/api/docsets/oatmig/7.4/content/oatmig.pdf).
   
-<ins>The only requirements for getting started is your SAS Software Order email.</ins>
+<ins>The only requirements for getting started are your SAS Software Order email and a Windows server, instance, or VM.</ins>
 
 **Installing and configuring SAS Office Analytics**
 
-1. [Pre-installation tasks: Create required users and groups](Pre-install.md)
-2. [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
+1. [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
+2. [Pre-installation tasks: Create required users and groups](Pre-install.md)
 3. [Deploy and Configure SAS](Deploy_and_Configure.md)
 4. [Invoke and Login to SAS Enterprise Guide](Enterprise_Guide.md)
    
