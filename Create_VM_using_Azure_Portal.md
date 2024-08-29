@@ -1,6 +1,6 @@
-### Create Azure VM environment using the Cloud Shell and ARM template files
+### Create Azure VM environment
 1. Login to the [Azure Portal](https://portal.azure.com/#create/Microsoft.VirtualMachine-ARM) **Create a Virtual Machine** page 
-2. It is suggested that you create a new Resource Group for your trial resouces but this is not required if you desire to add them to an existing group
+2. It is suggested that you create a new Resource Group for your but this is not required if you desire to add them to an existing group
 
 <kbd>![ ](images/resource_group.png)</kbd>
 
