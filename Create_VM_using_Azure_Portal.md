@@ -7,11 +7,9 @@
 3. For the Instance Details, select common defaults unless your organization requires specific aspects.  You need to determine values for:
 	* Virtual machine name
 	* Image: Recommended **Windows Server 2022 Datacenter: Azure Edition - x64 Gen2**
-        * Size:  Recommended **E8ds_v5** or the instance from your server sizing results
-	* User:  **sasadm**
-	* Password:  **letstrySASon!**
-
-   :heavy_exclamation_mark: It is strongly suggested that you use these **exact values**, as the scripts that make up this resource have been coded accordingly.  If you chose to deviate, you will have the opportunity to edit the files supplied, but this could lead to deployment failures.
+        * Instance:  Recommended **E8ds_v5** or the instance from your server sizing results
+	* Administrator User:  Recommended **sasadm**
+	* Administrator Password:  Set and remember ;)
 
 <kbd>![](images/image_details.png)</kbd>
 
@@ -19,10 +17,5 @@
 5. At this point you may select **Create**, or optionally modify before selecting Create
 	* Networking:  Delete public IP and NIC when VM is deleted
 	* Management:  Auto-shutdown
-6. The server created above has a default name and administrator account.  Note these values for future steps, you will need them during the Pre-install tasks:
-<table>
-  <tr><td>SAS Server Host Name</td><td>SAS-Server</td></tr>
-  <tr><td>Installer Account</td><td>sasadm</td></tr>
-  <tr><td>Installer Password</td><td>letstrySASon!</td></tr>
-</table>
+
 Go to Step 1 [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
