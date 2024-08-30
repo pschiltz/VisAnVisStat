@@ -1,9 +1,7 @@
 # SAS Software Installation Roadmap  
 
-Welcome!  We are happy you have chosen **SAS**.  This guide will walk you through the entire process of installation and configuration of SAS Visual Analytics, SAS Visual Statistics, SAS/Stat, and Enterprise Guide.  These steps are derived from the [Office Analytics 2-Machine Installation Manual](https://go.documentation.sas.com/api/docsets/oatmig/7.4/content/oatmig.pdf).  The document is for a slightly different offering but the general steps are relevant.
+Welcome!  We are happy you have chosen **SAS Software**.  This guide will walk you through the entire process of installation and configuration of SAS Visual Analytics, SAS Visual Statistics, SAS/Stat, and Enterprise Guide.  These steps are derived from the [Office Analytics 2-Machine Installation Manual](https://go.documentation.sas.com/api/docsets/oatmig/7.4/content/oatmig.pdf).  The document is for a slightly different offering but the general steps are relevant.
   
-<ins>The only requirements for getting started are your SAS Software Order email and a Windows server, instance, or VM.</ins>
-
 **Installing and configuring SAS Office Analytics**
 
 1. [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
