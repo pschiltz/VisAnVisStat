@@ -1,6 +1,6 @@
 # SAS Software Installation Roadmap  
 
-Welcome!  We are happy you have chosen **SAS Office Analytics**.  This guide will walk you through the entire process of installation and configuration.  These steps are derived from the [Office Analytics 2-Machine Installation Manual](https://go.documentation.sas.com/api/docsets/oatmig/7.4/content/oatmig.pdf).
+Welcome!  We are happy you have chosen **SAS**.  This guide will walk you through the entire process of installation and configuration of SAS Visual Analytics, SAS Visual Statistics, SAS/Stat, and Enterprise Guide.  These steps are derived from the [Office Analytics 2-Machine Installation Manual](https://go.documentation.sas.com/api/docsets/oatmig/7.4/content/oatmig.pdf).  The document is for a slightly different offering but the general steps are relevant.
   
 <ins>The only requirements for getting started are your SAS Software Order email and a Windows server, instance, or VM.</ins>
 
@@ -16,7 +16,6 @@ Welcome!  We are happy you have chosen **SAS Office Analytics**.  This guide wil
 * [Invoke and Login to SAS Enterprise Guide](Enterprise_Guide.md)
   
 (Optional:  Securing a server on Azure)
-If you plan to deploy to Azure, we have provided easy steps for securing the instance that will be your SAS Server.  You may have received a SAS Sizing Recommendation from your SAS Account Team, use that recommendation to select the instance type.  The default provided in the ARM template is the very smallest instance, used for example purposes, and should not be used for production deployment.
+If you plan to deploy to Azure, we have provided easy steps for securing the instance that will be your SAS Server.  You may have received a SAS Sizing Recommendation from your SAS Account Team, use that recommendation to select the instance type. 
 
-   Option 1: [Create Azure VM using Cloud Shell and ARM template](Create_Azure_VM_using_Cloud_Shell.md)  
-   Option 2: [Create Azure VM using the Azure Portal](Create_VM_using_Azure_Portal.md)
+   [Create Azure VM using the Azure Portal](Create_VM_using_Azure_Portal.md)
