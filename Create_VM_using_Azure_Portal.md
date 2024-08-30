@@ -4,9 +4,10 @@
 
 <kbd>![ ](images/resourcegroup.png)</kbd>
 
-3. For the Instance Details accept defaults except:
-	* Virtual machine name:  **SAS-Server**
-	* Image: **Windows Server 2022 Datacenter: Azure Edition - x64 Gen2**
+3. For the Instance Details, select common defaults unless your organization requires specific aspects.  You need to determine values for:
+	* Virtual machine name
+	* Image: Recommended **Windows Server 2022 Datacenter: Azure Edition - x64 Gen2**
+        * Size:  Recommended **E8ds_v5** or the instance from your server sizing results
 	* User:  **sasadm**
 	* Password:  **letstrySASon!**
 
