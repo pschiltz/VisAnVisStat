@@ -1,19 +1,13 @@
 ### Deploy and Configure SAS Office Analytics
 
-This GitHub project contains a response file that was previously recorded from a typical Office Analytics install.  You will download and use this recorded response file in order to remove all interaction with the SAS Deployment Wizard.
+This GitHub project contains a response file that was previously recorded from a typical Office Analytics install.  You will download and use this recorded response file in order to remove all prompting from the SAS installation process.  Through PS commands, you will be able to edit the response file with any specific values that are unique to your environment.
 
 1.  Download the response file stored in this GitHub repository.  This file will be edited using environment variables set in future steps.  This response file will feed these values to the SAS Deployment Wizard. 
 ```
 $Env:sas_depot='<INSERT THE FULL PATH TO YOUR SAS DEPOT HERE>'
-wget -outfile "$Env:sas_depot\sdwresponse.properties" https://pschiltz.github.io/OfficeAnalytics/sdwresponse.properties
+wget -outfile "$Env:sas_depot\sdwresponse.properties" https://pschiltz.github.io/VisAnVisStat/planvavs.properties
 ```
-2.  Download the required JUnit jar file in the same manner
-```
-mkdir "c:\program files\junit"
-wget https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar -outfile "c:\program files\junit\junit-4.13.2.jar"
-$Env:junit_path='c:\program files\junit\junit-4.13.2.jar'
-```
-3.  Create environment variables to store the values for your specific settings.  These will be used to edit the response file.
+2.  Create environment variables to store the values for your specific settings.  These will be used to edit the response file.
       * Define your configuration directory.  This directory will be created during the install.  Most commonly used:``` $Env:sas_config='C:\SAS\Config'```
       ```
       $Env:sas_config='<configuration path>'
@@ -39,7 +33,7 @@ $Env:junit_path='c:\program files\junit\junit-4.13.2.jar'
       $Env:sas_internal_pass='<provide a password for your internal SAS accounts>'
       ```
       
-4.  Make substitutions in the response file using the environment variables set above.  You should not have to edit this code.
+3.  Make substitutions in the response file using the environment variables set above.  You should not have to edit this code.
 ```
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'SAS-Server', $Env:SAS_Server | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_depot', $Env:sas_depot | Set-Content $Env:sas_depot\sdwresponse.properties
@@ -52,7 +46,7 @@ $Env:junit_path='c:\program files\junit\junit-4.13.2.jar'
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sashome_path', $Env:sashome_path | Set-Content $Env:sas_depot\sdwresponse.properties
 ```
    
-5.  Execute the install:  
+4.  Execute the install:  
 ```
 copy "$Env:sas_depot\sid_files\sas*.txt" "$Env:sas_depot\sid_files\sid.txt"
 & "$Env:sas_depot\setup.exe" -quiet -wait -responsefile "$Env:sas_depot\sdwresponse.properties"
