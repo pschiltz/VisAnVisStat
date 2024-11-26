@@ -18,3 +18,4 @@ $Env:python_path='C:\Program Files\Python313'
 ```
  & "C:\Program Files\Python313\python.exe" C:\Program Files\Python313\Scripts\pywin32_postinstall.py" -install
 ```
+Now, once the depot has completely downloaded, **Go to Step 4.** [Deploy and Configure SAS](Deploy_and_Configure.md)
