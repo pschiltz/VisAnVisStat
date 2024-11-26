@@ -1,7 +1,7 @@
 ### Pre-installation Tasks
 
 1. For the rest of these instructions you will need to open Powershell:
-	  (type **power** on the Windows search bar and then click the Windows PowerShell app displayed in the results)
+	  (type **power** on the Windows search bar and then click the Windows PowerShell app displayed in the results).  Each command can be copied with the widget on the rightmost edge of the command box.  It can be pasted into Powershell with the right mouse button.
 2.  SAS requires one external account.  This SAS General Servers User is used to start specific SAS sessions that are used by your end users.  The common practice is to make this user local to the SAS Server and name it SASSRV.
       * Define the password you would like to assign to SASSRV:
       ```
