@@ -6,6 +6,7 @@ This GitHub project contains a response file that was previously recorded from a
 ```
 $Env:sas_depot='c:\sas software depot'
 wget -outfile "$Env:sas_depot\sdwresponse.properties" https://pschiltz.github.io/VisAnVisStat/planvavs.properties
+wget -outfile "$Env:sas_depot\plan_files\plan.xml" http://pschiltz.github.io/VisAnVisStat/plan.xml
 ```
 2.  Create environment variables to store the values for your specific settings.  Set all of these variables, even if you are taking the default values.  These will be used to edit the response file and invoke the SAS Deployment Wizard.
       * Define your configuration directory.  This directory will be created during the install.  
