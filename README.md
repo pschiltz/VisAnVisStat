@@ -6,7 +6,8 @@ Welcome!  We are happy you have chosen **SAS Software**.  This guide will walk y
 
 1. [Download the SAS Software Depot](Download_the_SAS_Software_Depot.md)
 2. [Pre-installation tasks: Create required users and groups](Pre-install.md)
-3. [Deploy and Configure SAS](Deploy_and_Configure.md)
+3. [Install required 3rd Party software](Third_Party_Requirements.md)
+4. [Deploy and Configure SAS](Deploy_and_Configure.md)
    
 (Post-installation Tasks)
 * [Create and Add Users](Add_Users.md)
