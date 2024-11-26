@@ -21,7 +21,7 @@ net localgroup "SAS Server Users" /add
 net localgroup "SAS Server Users" sasdemo /add
 net localgroup "SAS Server Users" sassrv /add
 ```
-3. In your PowerShell window, paste the commands below to grant the SAS Server Users group to the local security policy of **Logon as a Batch Job**.
+5. In your PowerShell window, paste the commands below to grant the SAS Server Users group to the local security policy of **Logon as a Batch Job**.
     Answer **Y** to the two prompts and then hit <kbd>Enter</kbd> to execute the last command.  
 ```
 Install-Module -Name 'Carbon' -AllowClobber
