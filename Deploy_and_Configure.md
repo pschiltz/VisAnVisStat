@@ -28,7 +28,7 @@ wget -outfile "$Env:sas_depot\sdwresponse.properties" https://pschiltz.github.io
       ```
       $Env:install_pass='<your installer account password>'
       ```
-      * Define a password to set for your internal SAS accounts, including the SAS Administrator account, that are created during the configuration.  Example:```  $Env:sas_internal_pass='Orion123'```
+      * Define a password to set for your internal SAS accounts, including the SAS Administrator account, that are created during the configuration.  
       ```
       $Env:sas_internal_pass='<provide a password for your internal SAS accounts>'
       ```
