@@ -29,4 +29,4 @@ Import-Module 'Carbon'
 Grant-CPrivilege -Identity "SAS Server Users" -Privilege SeBatchLogonRight
 ```
 
-Now, once the depot has completely downloaded, **Go to Step 3.** [Deploy and Configure SAS](Deploy_and_Configure.md)
+Now, once the depot has completely downloaded, **Go to Step 3.** [Install Required 3rd Party Software](Third_Party_Requirements.md)
