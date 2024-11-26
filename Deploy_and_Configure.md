@@ -1,4 +1,4 @@
-### Deploy and Configure SAS Office Analytics
+### Deploy and Configure SAS Software
 
 This GitHub project contains a response file that was previously recorded from an installation of SAS Visual Analytics, SAS Visual Statistics, SAS/STAT, and SAS Enterprise Guide to a Windows Server.  You will download and use this recorded response file in order to remove all prompting from the SAS installation process.  Through PS commands, you will be able to edit the response file with any specific values that are unique to your environment.
 
