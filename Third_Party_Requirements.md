@@ -1,10 +1,12 @@
-1.  Download the required JUnit jar file in the same manner
+### Installing required 3rd party software - JUnit and Python
+
+1.  Download the  JUnit jar file 
 ```
 mkdir "c:\program files\junit"
 wget https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar -outfile "c:\program files\junit\junit-4.13.2.jar"
 $Env:junit_path='c:\program files\junit\junit-4.13.2.jar'
 ```
-2.  Download required Python installation.  If your installer account is not SAS, alter the commands to use your installer account id.
+2.  Download  Python installation file and execute.  If your installer account is not SAS, alter the commands to use your installer account id.
 ```
 wget https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe -outfile "c:\users\SAS\Downloads\python_installer.exe"
 & ""c:\users\SAS\Downloads\python_installer.exe"
