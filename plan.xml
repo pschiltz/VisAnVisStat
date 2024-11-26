@@ -2,30 +2,30 @@
 <Metadata>
   <Group Id="$group:1" Name="" Desc="">
     <Properties>
-      <Property Id="$grpprop:1" Name="AsOfDate" DefaultValue="2024-06-12" />
+      <Property Id="$grpprop:1" Name="AsOfDate" DefaultValue="2024-06-18" />
       <Property Id="$grpprop:2" Name="ConfigDirectory" DefaultValue="Config" />
-      <Property Id="$grpprop:3" Name="CustomerName" DefaultValue="VA VS" />
-      <Property Id="$grpprop:4" Name="OrderNumber" DefaultValue="0BG5B2" />
-      <Property Id="$grpprop:5" Name="TSSiteNumber" DefaultValue="70068130" />
+      <Property Id="$grpprop:3" Name="CustomerName" DefaultValue="VA VS STAT EG WX64 for SAS Azure" />
+      <Property Id="$grpprop:4" Name="OrderNumber" DefaultValue="9cym97" />
+      <Property Id="$grpprop:5" Name="TSSiteNumber" DefaultValue="70068129" />
       <Property Id="$grpprop:6" Name="SiteID" DefaultValue="0079390001" />
       <Property Id="$grpprop:7" Name="CreatedBy" DefaultValue="Pam Schiltz" />
-      <Property Id="$grpprop:8" Name="LastModified" DefaultValue="2024-06-14 13:05:31.520" />
+      <Property Id="$grpprop:8" Name="LastModified" DefaultValue="2024-11-20 10:15:24.740" />
       <Property Id="$grpprop:9" Name="IsPlanValid" DefaultValue="true" />
       <Property Id="$grpprop:10" Name="IsSequenceEnsured" DefaultValue="true" />
       <Property Id="$grpprop:11" Name="PowerMode" DefaultValue="false" />
       <Property Id="$grpprop:12" Name="SasVersion" DefaultValue="9.4" />
-      <Property Id="$grpprop:13" Name="ShipEvent" DefaultValue="24w12" />
+      <Property Id="$grpprop:13" Name="ShipEvent" DefaultValue="24w25" />
       <Property Id="$grpprop:14" Name="MaintLevel" DefaultValue="9.4_M8" />
       <Property Id="$grpprop:15" Name="StandardTopology" DefaultValue="One Machine" />
     </Properties>
     <Notes>
       <TextStore Id="$grpprop:16" Name="PlanDetails" StoredText="" />
-      <TextStore Id="$grpprop:17" Name="BuildDetails" StoredText="MAMBAQMyNHcxMiAvIGRpZHBsb3kyNzADAQGOKz8nmAMGAzADMAM5AwJhAwMwAzADOQMCOS40IDI0dzEyIHcDAQMJFkADMAMwAzkDAmMDBBpeSgMwAzADOQMCcAMBAexyeqsDMAMwAzkDAm0DLAEBRWQDMAMwAzkDAnUDAQHsdK2wAw==" />
+      <TextStore Id="$grpprop:17" Name="BuildDetails" StoredText="MAMBAQMyNHczOCAvIGRpZHBsb3kyNzQDAQGP7k5LSAMGAzADMAM5AwJhAwEB5jZjkAMwAzADOQMCOS40IDI0dzI1IHcDAzADMAM5AwJjAwECIML3AzADMAM5AwJwAwEDW8i4kwMwAzADOQMCbQMBAhPuEr0DMAMwAzkDAnUDAQNb0BV1Aw==" />
     </Notes>
     <Members>
       <SoftwareComponent Id="$EGUIDEOFR:1" Name="SAS Enterprise Guide" ProductName="SAS Enterprise Guide" ProductIdentifier="EGUIDEOFR" SoftwareVersion="8.4">
         <Properties>
-          <Property Id="$EGUIDEOFR:1:prop:1" Name="AsOfDate" DefaultValue="2024-06-12" />
+          <Property Id="$EGUIDEOFR:1:prop:1" Name="AsOfDate" DefaultValue="2024-06-18" />
           <Property Id="$EGUIDEOFR:1:prop:2" Name="UserSelected" DefaultValue="true" />
           <Property Id="$EGUIDEOFR:1:prop:3" Name="InternalVersion" DefaultValue="20240319_9.4" />
           <Property Id="$EGUIDEOFR:1:prop:4" Name="ProductionStatus" DefaultValue="PROD" />
@@ -33,7 +33,7 @@
       </SoftwareComponent>
       <SoftwareComponent Id="$VISANLYTOFR:1" Name="SAS Visual Analytics (on SAS 9.x)" ProductName="SAS Visual Analytics (on SAS 9.x)" ProductIdentifier="VISANLYTOFR" SoftwareVersion="7.52">
         <Properties>
-          <Property Id="$VISANLYTOFR:1:prop:1" Name="AsOfDate" DefaultValue="2024-06-12" />
+          <Property Id="$VISANLYTOFR:1:prop:1" Name="AsOfDate" DefaultValue="2024-06-18" />
           <Property Id="$VISANLYTOFR:1:prop:2" Name="UserSelected" DefaultValue="true" />
           <Property Id="$VISANLYTOFR:1:prop:3" Name="InternalVersion" DefaultValue="20230131_9.4" />
           <Property Id="$VISANLYTOFR:1:prop:4" Name="ProductionStatus" DefaultValue="PROD" />
@@ -1589,9 +1589,9 @@
               <SoftwareComponent ObjRef="$VISANLYTOFR:1" Desc="contains 1 of" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
-          <DeployedComponent Id="$CERTFRAME:1" Name="SAS Security Certificate Framework" ProductName="SAS Security Certificate Framework" ProductIdentifier="CERTFRAME" Platform="WX6" SoftwareVersion="9.49658_M5">
+          <DeployedComponent Id="$CERTFRAME:1" Name="SAS Security Certificate Framework" ProductName="SAS Security Certificate Framework" ProductIdentifier="CERTFRAME" Platform="WX6" SoftwareVersion="9.49658_M6">
             <Properties>
-              <Property Id="$CERTFRAME:1:prop:1" Name="InternalVersion" DefaultValue="94.612" />
+              <Property Id="$CERTFRAME:1:prop:1" Name="InternalVersion" DefaultValue="94.614" />
               <Property Id="$CERTFRAME:1:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
               <Property Id="$CERTFRAME:1:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$CERTFRAME:1:prop:4" Name="Hide" DefaultValue="false" />
@@ -1639,9 +1639,9 @@
               <DeployedComponent ObjRef="$BASE:1" Desc="optionally contains" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
-          <DeployedComponent Id="$SASUNIVIEWER:1" Name="SAS Universal Viewer" ProductName="SAS Universal Viewer" ProductIdentifier="SASUNIVIEWER" Platform="WX6" SoftwareVersion="1.5">
+          <DeployedComponent Id="$SASUNIVIEWER:1" Name="SAS Universal Viewer" ProductName="SAS Universal Viewer" ProductIdentifier="SASUNIVIEWER" Platform="WX6" SoftwareVersion="1.51">
             <Properties>
-              <Property Id="$SASUNIVIEWER:1:prop:1" Name="InternalVersion" DefaultValue="94.170" />
+              <Property Id="$SASUNIVIEWER:1:prop:1" Name="InternalVersion" DefaultValue="94.180" />
               <Property Id="$SASUNIVIEWER:1:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
               <Property Id="$SASUNIVIEWER:1:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$SASUNIVIEWER:1:prop:4" Name="Hide" DefaultValue="false" />
@@ -2050,9 +2050,9 @@
               <DeployedComponent ObjRef="$SEARCHSAS:1" Desc="requires 1 of" ChangeState="true" />
             </ImplementedObjects>
           </ConfiguredComponent>
-          <ConfiguredComponent Id="$VFABRCERSVRC:1" Name="SAS Web Server Configuration" ProductName="SAS Web Server Configuration" ProductIdentifier="VFABRCERSVRC" Platform="WX6" SoftwareVersion="11.36">
+          <ConfiguredComponent Id="$VFABRCERSVRC:1" Name="SAS Web Server Configuration" ProductName="SAS Web Server Configuration" ProductIdentifier="VFABRCERSVRC" Platform="WX6" SoftwareVersion="11.39">
             <Properties>
-              <Property Id="$VFABRCERSVRC:1:prop:1" Name="InternalVersion" DefaultValue="94.1090" />
+              <Property Id="$VFABRCERSVRC:1:prop:1" Name="InternalVersion" DefaultValue="94.1100" />
               <Property Id="$VFABRCERSVRC:1:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
               <Property Id="$VFABRCERSVRC:1:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$VFABRCERSVRC:1:prop:4" Name="Hide" DefaultValue="false" />
@@ -2064,9 +2064,9 @@
               <ConfiguredComponent ObjRef="$TCSCLUSTERC:1" Desc="requires 1 of" ChangeState="true" />
             </ImplementedObjects>
           </ConfiguredComponent>
-          <ConfiguredComponent Id="$VFABRICTCSVR:1" Name="SAS Web Application Server Configuration" ProductName="SAS Web Application Server Configuration" ProductIdentifier="VFABRICTCSVR" Platform="WX6" SoftwareVersion="11.36">
+          <ConfiguredComponent Id="$VFABRICTCSVR:1" Name="SAS Web Application Server Configuration" ProductName="SAS Web Application Server Configuration" ProductIdentifier="VFABRICTCSVR" Platform="WX6" SoftwareVersion="11.39">
             <Properties>
-              <Property Id="$VFABRICTCSVR:1:prop:1" Name="InternalVersion" DefaultValue="94.1090" />
+              <Property Id="$VFABRICTCSVR:1:prop:1" Name="InternalVersion" DefaultValue="94.1100" />
               <Property Id="$VFABRICTCSVR:1:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
               <Property Id="$VFABRICTCSVR:1:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$VFABRICTCSVR:1:prop:4" Name="Hide" DefaultValue="false" />
@@ -2387,7 +2387,7 @@
           </ConfiguredComponent>
           <ConfiguredComponent Id="$VFABRCHYPERC:1" Name="SAS Environment Manager Configuration" ProductName="SAS Environment Manager Configuration" ProductIdentifier="VFABRCHYPERC" Platform="WX6" SoftwareVersion="2.793">
             <Properties>
-              <Property Id="$VFABRCHYPERC:1:prop:1" Name="InternalVersion" DefaultValue="94.1060" />
+              <Property Id="$VFABRCHYPERC:1:prop:1" Name="InternalVersion" DefaultValue="94.1070" />
               <Property Id="$VFABRCHYPERC:1:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
               <Property Id="$VFABRCHYPERC:1:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$VFABRCHYPERC:1:prop:4" Name="Hide" DefaultValue="false" />
@@ -2414,7 +2414,7 @@
           </ConfiguredComponent>
           <ConfiguredComponent Id="$HYPERAGNTC:1" Name="SAS Environment Manager Agent Configuration" ProductName="SAS Environment Manager Agent Configuration" ProductIdentifier="HYPERAGNTC" Platform="WX6" SoftwareVersion="2.793">
             <Properties>
-              <Property Id="$HYPERAGNTC:1:prop:1" Name="InternalVersion" DefaultValue="94.1060" />
+              <Property Id="$HYPERAGNTC:1:prop:1" Name="InternalVersion" DefaultValue="94.1070" />
               <Property Id="$HYPERAGNTC:1:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
               <Property Id="$HYPERAGNTC:1:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$HYPERAGNTC:1:prop:4" Name="Hide" DefaultValue="false" />
@@ -3019,9 +3019,9 @@
               <DeployedComponent ObjRef="$BASE:2" Desc="requires" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
-          <DeployedComponent Id="$CERTFRAME:2" Name="SAS Security Certificate Framework" ProductName="SAS Security Certificate Framework" ProductIdentifier="CERTFRAME" Platform="WX6" SoftwareVersion="9.49658_M5">
+          <DeployedComponent Id="$CERTFRAME:2" Name="SAS Security Certificate Framework" ProductName="SAS Security Certificate Framework" ProductIdentifier="CERTFRAME" Platform="WX6" SoftwareVersion="9.49658_M6">
             <Properties>
-              <Property Id="$CERTFRAME:2:prop:1" Name="InternalVersion" DefaultValue="94.612" />
+              <Property Id="$CERTFRAME:2:prop:1" Name="InternalVersion" DefaultValue="94.614" />
               <Property Id="$CERTFRAME:2:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
               <Property Id="$CERTFRAME:2:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$CERTFRAME:2:prop:4" Name="Hide" DefaultValue="false" />
@@ -3154,7 +3154,7 @@
           </ConfiguredComponent>
           <ConfiguredComponent Id="$HYPERAGNTC:2" Name="SAS Environment Manager Agent Configuration" ProductName="SAS Environment Manager Agent Configuration" ProductIdentifier="HYPERAGNTC" Platform="WX6" SoftwareVersion="2.793">
             <Properties>
-              <Property Id="$HYPERAGNTC:2:prop:1" Name="InternalVersion" DefaultValue="94.1060" />
+              <Property Id="$HYPERAGNTC:2:prop:1" Name="InternalVersion" DefaultValue="94.1070" />
               <Property Id="$HYPERAGNTC:2:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
               <Property Id="$HYPERAGNTC:2:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$HYPERAGNTC:2:prop:4" Name="Hide" DefaultValue="false" />
@@ -3333,9 +3333,9 @@
               <DeployedComponent ObjRef="$TCSVR:3" Desc="requires" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
-          <DeployedComponent Id="$CERTFRAME:3" Name="SAS Security Certificate Framework" ProductName="SAS Security Certificate Framework" ProductIdentifier="CERTFRAME" Platform="WX6" SoftwareVersion="9.49658_M5">
+          <DeployedComponent Id="$CERTFRAME:3" Name="SAS Security Certificate Framework" ProductName="SAS Security Certificate Framework" ProductIdentifier="CERTFRAME" Platform="WX6" SoftwareVersion="9.49658_M6">
             <Properties>
-              <Property Id="$CERTFRAME:3:prop:1" Name="InternalVersion" DefaultValue="94.612" />
+              <Property Id="$CERTFRAME:3:prop:1" Name="InternalVersion" DefaultValue="94.614" />
               <Property Id="$CERTFRAME:3:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
               <Property Id="$CERTFRAME:3:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$CERTFRAME:3:prop:4" Name="Hide" DefaultValue="false" />
@@ -3348,9 +3348,9 @@
               <DeployedComponent ObjRef="$TCSVR:3" Desc="requires" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
-          <ConfiguredComponent Id="$TCSCLUSTERC:1" Name="SAS Web Application Server Node Configuration" ProductName="SAS Web Application Server Node Configuration" ProductIdentifier="TCSCLUSTERC" Platform="WX6" SoftwareVersion="11.36">
+          <ConfiguredComponent Id="$TCSCLUSTERC:1" Name="SAS Web Application Server Node Configuration" ProductName="SAS Web Application Server Node Configuration" ProductIdentifier="TCSCLUSTERC" Platform="WX6" SoftwareVersion="11.39">
             <Properties>
-              <Property Id="$TCSCLUSTERC:1:prop:1" Name="InternalVersion" DefaultValue="94.1090" />
+              <Property Id="$TCSCLUSTERC:1:prop:1" Name="InternalVersion" DefaultValue="94.1100" />
               <Property Id="$TCSCLUSTERC:1:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
               <Property Id="$TCSCLUSTERC:1:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$TCSCLUSTERC:1:prop:4" Name="Hide" DefaultValue="false" />
@@ -3363,7 +3363,7 @@
           </ConfiguredComponent>
           <ConfiguredComponent Id="$HYPERAGNTC:3" Name="SAS Environment Manager Agent Configuration" ProductName="SAS Environment Manager Agent Configuration" ProductIdentifier="HYPERAGNTC" Platform="WX6" SoftwareVersion="2.793">
             <Properties>
-              <Property Id="$HYPERAGNTC:3:prop:1" Name="InternalVersion" DefaultValue="94.1060" />
+              <Property Id="$HYPERAGNTC:3:prop:1" Name="InternalVersion" DefaultValue="94.1070" />
               <Property Id="$HYPERAGNTC:3:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
               <Property Id="$HYPERAGNTC:3:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$HYPERAGNTC:3:prop:4" Name="Hide" DefaultValue="false" />
