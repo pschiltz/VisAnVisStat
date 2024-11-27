@@ -47,7 +47,7 @@ wget -outfile "$Env:sas_depot\plan_files\plan.xml" http://pschiltz.github.io/Vis
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sashome_path', $Env:sashome_path | Set-Content $Env:sas_depot\sdwresponse.properties
 ```
    
-4.  We are finally ready to execute the install!  The command will execute the SAS Deployment Wizard and provide prompts with the values in the responsefile that you just edited in steps 1-3.  The prompts will appear but you will simply hit Next until the end.  For any warnings, again, just click Yes, Accept, or Next.  
+4.  We are finally ready to execute the install!  The command below will execute the SAS Deployment Wizard and provide prompts with the values in the responsefile that you just edited in steps 1-3.  The prompts will appear but you will simply hit *Next* until the end.  For any warnings, again, just click *Yes, Accept, or Next*.  The install & configure will take approximately 2 hours.
 ```
 & "$Env:sas_depot\setup.exe" -responsefile "$Env:sas_depot\sdwresponse.properties"
 ```
