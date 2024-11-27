@@ -36,7 +36,7 @@ wget -outfile "$Env:sas_depot\plan_files\plan.xml" http://pschiltz.github.io/Vis
       
 3.  Make substitutions in the response file using the environment variables set above.  You should not have to edit this code.
 ```
-(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'SAS-Server', $Env:SAS_Server | Set-Content $Env:sas_depot\sdwresponse.properties
+(Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'SAS_Server', $Env:SAS_Server | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_depot', $Env:sas_depot | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sas_config', $Env:sas_config | Set-Content $Env:sas_depot\sdwresponse.properties
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'installer_account', $Env:installer_account | Set-Content $Env:sas_depot\sdwresponse.properties
