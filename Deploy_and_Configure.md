@@ -5,6 +5,7 @@ This GitHub project contains a response file that was previously recorded from a
 1.  Download the response file stored in this GitHub repository.  This file will be edited using environment variables set in future steps.  This response file will feed these values to the SAS Deployment Wizard.  Edit the depot path if you did not select the default during your download.
 ```
 $Env:sas_depot='c:\sas software depot'
+copy "$Env:sas_depot\sid_files\sas*.txt" "$Env:sas_depot\sid_files\sid.txt"
 wget -outfile "$Env:sas_depot\sdwresponse.properties" https://pschiltz.github.io/VisAnVisStat/planvavs.properties
 wget -outfile "$Env:sas_depot\plan_files\plan.xml" http://pschiltz.github.io/VisAnVisStat/plan.xml
 ```
@@ -46,16 +47,13 @@ wget -outfile "$Env:sas_depot\plan_files\plan.xml" http://pschiltz.github.io/Vis
 (Get-Content $Env:sas_depot\sdwresponse.properties) -replace 'sashome_path', $Env:sashome_path | Set-Content $Env:sas_depot\sdwresponse.properties
 ```
    
-4.  Execute the install:  
+4.  We are finally ready to execute the install!  The command will execute the SAS Deployment Wizard and provide prompts with the values in the responsefile that you just edited in steps 1-3.  The prompts will appear but you will simply hit Next until the end.  For any warnings, again, just click Yes, Accept, or Next.  
 ```
-copy "$Env:sas_depot\sid_files\sas*.txt" "$Env:sas_depot\sid_files\sid.txt"
-& "$Env:sas_depot\setup.exe" -quiet -wait -responsefile "$Env:sas_depot\sdwresponse.properties"
+& "$Env:sas_depot\setup.exe" -responsefile "$Env:sas_depot\sdwresponse.properties"
 ```
-The command will execute and return.  But the install and configuration will take approximately 60 minutes.  You can monitor the **SDW window launcher application** process in Task Manager to determine if it is still running.  You can also watch for the population of your SAS installation and configuration directories.
-   
-![](images/sdw.png)
 
-**Congratulations!**  Your SAS Deployment is complete and you are ready to start using **SAS Office Analytics**.
+
+**Congratulations!**  Your SAS Deployment is complete and you are ready to start using **SAS Analytics**.
 Suggested next steps:
 * [Add Users](Add_Users.md)
 * [Tour the Environment](Environment_Overview.md)
