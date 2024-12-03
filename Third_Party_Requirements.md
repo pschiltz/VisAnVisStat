@@ -11,7 +11,7 @@ $Env:junit_path='c:\program files\junit\junit-4.13.2.jar'
 wget https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe -outfile "c:\users\SAS\Downloads\python_installer.exe"
 & "c:\users\SAS\Downloads\python_installer.exe" /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
 $Env:python_path='C:\Program Files\Python313'
-$filePath = "C:\Program Files\Python313\Scripts\pywin32_postinstall.py"
+$filePath = "C:\Program Files\Python313\Scripts\pip.exe"
 $startTime = Get-Date
 while (!(Test-Path -Path $filePath)) {
     if ((New-TimeSpan -Start $startTime -End (Get-Date)).TotalSeconds -gt 300) {
