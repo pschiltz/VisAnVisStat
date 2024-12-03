@@ -18,9 +18,9 @@ wget -outfile "$Env:sas_depot\plan_files\plan.xml" http://pschiltz.github.io/Vis
       ```
       $Env:sashome_path='C:\Program Files\SASHome'
       ```
-      * Define the host name of your server.  This can be the IP address, short, or fully qualified name.  
+      * Define the host name of your server.  This value should be the short name of your server, not fully qualified.  
       ```
-      $Env:SAS_Server='localhost'
+      $Env:SAS_Server='<your server SHORT name>'
       ```
       * Define the installer account, the account that you are currently logged in as.  (This account is created while reserving a cloud-based VM)  
       ```
