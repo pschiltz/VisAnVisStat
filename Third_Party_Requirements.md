@@ -25,6 +25,6 @@ while (!(Test-Path -Path $filePath)) {
 & "C:\Program Files\Python313\Scripts\pip.exe" install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org pywin32
 ```
 ```
- & "C:\Program Files\Python313\python.exe" C:\Program Files\Python313\Scripts\pywin32_postinstall.py -install
+ & "C:\Program Files\Python313\python.exe" "C:\Program Files\Python313\Scripts\pywin32_postinstall.py" -install
 ```
 Now, once the depot has completely downloaded, **Go to Step 4.** [Deploy and Configure SAS](Deploy_and_Configure.md)
